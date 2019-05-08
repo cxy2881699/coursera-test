@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin-left: 1%;
+  margin-top: 1%;
+
+}
+h1 {
+  margin-bottom: 15px;
+  color: red; 
+  font: 50px Impact, Charcoal, sans-serif;
+}
+
+p {
+  border: 1px solid black;
+  background-color: #A52A2A;
+  width: 100%;
+  height: 90%;
+  margin: 0;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+.gis{
+  position: relative;
+  width: auto;
+  height: 7%;
+  background: #BCC6CC;
+  top:0;
+  float: right;
+  border: 1px solid black;
+  padding-left:10px;
+  padding-right:10px;
+  margin-top: 0;
+  color: #2554C7; 
+  font: 20px Impact, Charcoal, sans-serif;
+}
+.it{
+  position: relative;
+  width: auto;
+  height: 7%;
+  background: #BCC6CC;
+  float: right;
+  border: 1px solid black;
+  padding-left:10px;
+  padding-right:10px;
+  margin-top: 0;
+  color: #2B1B17; 
+  font: 20px Impact, Charcoal, sans-serif;
+}
+.web{
+  position: relative;
+  width: auto;
+  height: 7%;
+  background: #BCC6CC;
+  float: right;
+  clear:top;
+  border: 1px solid black;
+  padding-left:10px;
+  padding-right:10px;
+  margin-top: 0;
+  color: #9F000F; 
+  font: 20px Impact, Charcoal, sans-serif;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .col-lg-3, .col-lg-3, .col-lg-3 {
+    float: left;
+    border: 1px black; 
+    
+  }
+  .col-lg-3 {
+    width: 30%;
+  }
+  .col-lg-3 {
+    width: 30%;
+  }
+  .col-lg-3 {
+    width: 30%;
+  }
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .col-md-6, .col-md-6, .col-md-12 {
+    float: left;
+    border: 1px solid black;
+  }
+  .col-md-6 {
+    width: 47%;
+  }
+  .col-md-6 {
+    width: 47%;
+  }
+  .col-md-12 {
+    width: 95%;
+  }
+  
+}
+/********** Mobile devices only **********/
+@media (min-width: 1px) and (max-width: 991px) {
+  .col-xs-12, .col-xs-12, .col-xs-12 {
+    float: left;
+    border: 1px solid black;
+    
+  }
+  .col-xs-12 {
+    width: 96%;
+  }
+  .col-xs-12 {
+    width: 96%;
+  }
+  .col-xs-12 {
+    width: 96%;
+  }
+
+}
