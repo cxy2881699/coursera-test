@@ -1,0 +1,314 @@
+
+body {
+  
+  color: #000;
+  background-image: url('../images/halfflogo.jpg');
+  background-color: rgba(238, 238, 238, 0.5) !important;
+  background-blend-mode: color;
+  background-position: left;
+  background-size: 50%;
+  font-family: 'Oxygen', sans-serif;
+
+  width: 100vw;
+  
+}
+
+
+
+/** HEADER **/
+.container{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#header-nav {
+  background-color: #fff;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url('../images/main-logo.png') no-repeat;
+  width: 413px;
+  height: 58px;
+  margin: 10px 15px 10px 0;
+  float:left;
+}
+
+.navbar-header {
+  padding-top: 0;
+  left:0;
+}
+
+.navbar-header h1 { 
+ 
+  font-family: 'Arial Black', Gadget, sans-serif;
+  color: #2e9ae8;
+  text-transform: uppercase;s
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: .75;
+  margin-left: 0;
+  font-size: 35px;
+}
+.navbar-header h1:hover, .navbar-header>h1:focus {
+  text-decoration: none;
+}
+
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1em;
+}
+
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone span{
+  color: #2e9ae8;
+  font-size: 2em;
+}
+#phone div { /* Call us */
+  color: #2e9ae8;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #2e9ae8;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+
+/* CONTENT */
+
+#ABOUT p, #GIS p, #IT p{
+  font-size: 2em;
+ 
+}
+.row p{
+  background-color: #fffba0;
+}
+
+#subsubtitle span{
+  text-align: center;
+}
+#ABOUT,#GIS,#IT{
+  text-align: center;
+  font-size: 2vw;
+  line-height: 2;
+  position:relative;
+}
+
+#ABOUT p, #GIS p, #IT p{
+  font-size: 20px;
+}
+
+/* FOOTER */
+.panel-footer {
+  
+  margin-top: 30px;
+  
+  width: 100%;
+
+  padding-top: 5px;
+  padding-bottom: 30px;
+  background-color: #2e9ae8;
+  border-top: 0;
+  
+}
+
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#address {
+  margin-top:0;
+  left: 20%;
+  line-height: 2;
+  position:relative;
+}
+#address > span {
+  font-size: 1.3em;
+}
+
+#testimonials {
+  margin-top: 15px;
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 15px;
+}
+.back{
+  text-align: center;
+  text-underline-position: auto;
+ 
+}
+a>.back:hover{
+  text-shadow: 1px 1px #558ABB;
+}
+#footerphone{
+  text-align: center;
+  color:#222;
+}
+/* END FOOTER */
+
+
+
+/* HOME PAGE */
+.subtitle p{
+  font-family: 'Arial Black', Gadget, sans-serif;
+  color: #2e9ae8;
+  font-size: 3vw;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 70px;
+  text-align: center;
+  position:relative;
+  width:auto;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+
+ 
+  
+}
+
+#map-tile {
+  height: 250px;
+  width: 45vw;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+}
+ #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+/* END HOME PAGE */
+
+@media (min-width: 1200px) {
+  
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container {
+    width: 100%;
+
+  }
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/main-logo.png') no-repeat;
+    width: 420px;
+    height: 54px;
+    margin: 5px 5px 5px 0;
+  }
+
+  .navbar-header h1 { 
+    margin-top: 10px;
+  }
+
+  /* End Header */
+
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  
+ #main-content{
+  margin-left: auto;
+  margin-right: 15px;
+ }
+
+
+  #ABOUT,#GIS,#IT{
+  
+  font-size: 30px;
+ 
+}
+  .navbar-header h1 { 
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+
+  
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+    color:#fff;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-callus {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+
+  /* Footer */
+  #address{
+    left:0;
+  }
+  .panel-footer section {
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+
+}
+
